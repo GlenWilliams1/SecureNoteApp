@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureNoteApp Index</title>
+</head>
+<body>
+    <h1>Welcome to SecureNoteApp!</h1>
+    <p>This is the index page for the SecureNoteApp. Choose a version:</p>
+
+    <h2>Insecure Version</h2>
+    <ul>
+        <li><a href="/insecure">Insecure Route (SQL Injection)</a></li>
+        <li><a href="/xss">Insecure Route (Reflected XSS)</a></li>
+        <li><a href="/store">Insecure Route (Sensitive Data Exposure)</a></li>
+    </ul>
+
+    <h2>Secure Version</h2>
+    <ul>
+        <li><a href="/secure">Secure Route (CSRF Protection)</a></li>
+        <li><a href="/secure/store">Secure Route (Proper Session Management)</a></li>
+    </ul>
+</body>
+</html>
